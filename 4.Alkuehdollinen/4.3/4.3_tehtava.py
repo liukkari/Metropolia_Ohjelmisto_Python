@@ -1,3 +1,9 @@
+# Tehtävä 4.3
+
+'''Kirjoita ohjelma, joka kysyy käyttäjältä lukuja siihen saakka,
+    kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi.
+    Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.'''
+
 pienin_luku = ""
 suurin_luku = ""
 
@@ -7,6 +13,8 @@ while True:
         if pienin_luku != '' and suurin_luku != '':
             print(f"Pienin luku syötteistäsi on {pienin_luku}")
             print(f"Suurin luku syötteistäsi on {suurin_luku}")
+        else:
+            print("Et antanut yhtään lukua.")
 
         print()
         print("Toiminto lopetetaan.")

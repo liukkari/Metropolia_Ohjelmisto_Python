@@ -1,9 +1,17 @@
+# Tehtävä 4.2
+
+'''Kirjoita ohjelma, joka muuntaa tuumia senttimetreiksi niin kauan
+    kunnes käyttäjä antaa negatiivisen tuumamäärän.
+    Sen jälkeen ohjelma lopettaa toimintansa. 1 tuuma = 2,54 cm'''
+
 while True:
-    syote = float(input("Anna senttimetrejä, joka muutetaan tuumiksi. Negatiivinen luku lopettaa toiminnon\n"))
+    syote = float(input("Anna tuumia,jotka muutetaan senttimetreiksi. Negatiivinen luku lopettaa toiminnon\n"))
+    print()
     if syote < 0:
-        print("Toiminto lopetettu.")
+        print("Negatiivinen luku syötetty.Toiminto lopetetaan.")
         break
     else:
-        syote_tuumaksi = syote / 2.54
-        print(f"{syote} senttimetriä on {syote_tuumaksi:.2f} tuumaa ")
+        syote_to_cm = syote * 2.54
+        print(f"{syote} tuumaa on {syote_to_cm:.2f} senttimetriä.")
+        print()
 
