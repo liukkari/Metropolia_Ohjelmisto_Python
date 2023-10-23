@@ -56,7 +56,7 @@ def main():
                 kisa_kaynnissa = False
                 break
 
-    print("\t\t\t\t\t\t\t\tResult")
+    print("\t\t\t\t\t\t\t\t\t\t\tResult")
     print("------------------------------------------------------------------------------------------------")
     for auto in lista_autoja:
         print(f"|Auto: {auto.rekisteritunnus:6s} | Huippunopeus: {auto.huippunopeus:3d} km/h | "
